@@ -13,12 +13,12 @@ include_once("instagram-photo-video-upload-api.class.php");
 
 // Upload Photo
 $obj = new InstagramUpload();
-$obj->Login("YOUR_IG_USERNAME", "YOUR_IG_PASSWORD");
+$obj->Login("botqodri", "qodri2");
 $obj->UploadPhoto("square-image.jpg", "Test Upload Photo From PHP");
 
 // Upload Video
 $obj = new InstagramUpload();
-$obj->Login("YOUR_IG_USERNAME", "YOUR_IG_PASSWORD");
+$obj->Login("botqodri", "qodri2");
 $obj->UploadVideo("test-video.mp4", "square-thumb.jpg", "Test Upload Video From PHP");
 
 ?>
